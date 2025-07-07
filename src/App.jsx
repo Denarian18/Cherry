@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { useState, useEffect } from 'react';
@@ -32,7 +32,7 @@ function App() {
   }, [searchText])
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header searchText={searchText} setSearchText={setSearchText}/>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -49,7 +49,7 @@ function App() {
         {/* <Route path="/contact" element={<Contact />} /> */}
         {/* <Route path="/location" element={<Location />} /> */}
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
