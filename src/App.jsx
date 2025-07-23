@@ -12,6 +12,7 @@ import TvSeries from './assets/Components/tv/TvSeries';
 import TvSeriesView from './assets/Components/tv/TvSeriesView';
 import People from './assets/Components/people/People';
 import PeopleView from './assets/Components/people/PeopleView';
+import GenreView from './assets/Components/genre/GenreView';
 // Import Contact and Location if you have them
 
 function App() {
