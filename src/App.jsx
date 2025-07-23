@@ -44,6 +44,7 @@ function App() {
          <Route path="/tv/:id" element={<TvSeriesView />} />
          <Route path="/people" element={<People />} />
          <Route path="/person/:id" element={<PeopleView />} />
+           <Route path="/genre/:id" element={<GenreView />} />
         {/* Add these only if you have the components */}
         {/* <Route path="/contact" element={<Contact />} /> */}
         {/* <Route path="/location" element={<Location />} /> */}
